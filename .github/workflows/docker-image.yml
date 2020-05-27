@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 env:
-  IMAGE_NAME: andrzejsydor/csp-demo
+  IMAGE_NAME: andrzejsydor/demo-csp
 
 jobs:
   build:
