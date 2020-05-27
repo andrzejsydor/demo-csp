@@ -2,14 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-csp-deny',
-  templateUrl: './csp-deny.component.html',
-  styleUrls: ['./csp-deny.component.css']
+  templateUrl: './csp-deny.component.html'
 })
-export class CspDenyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class CspDenyComponent {
 }

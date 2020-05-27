@@ -1,16 +1,19 @@
+# CSP - configuration
+
+CSP configured in default.conf file for the `nginx` server
+
 # Docker
 
 ```
 docker build -t angular-csp -f ci/Dockerfile .
+docker run -p 80:80 --rm -it angular-csp
 ```
 
 ```
 docker build --no-cache -t angular-csp-local .
+docker run -p 80:80 --rm -it angular-csp-local
 ```
 
-```
-docker run -p 80:80 --rm -it angular-csp
-```
 
 # AngularCsp
 
@@ -39,3 +42,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[https://www.dropbox.com/s/sl55vr08z9w3m55/arrow-right-enter-signage-712850-small.jpg?dl=0](https://www.dropbox.com/s/sl55vr08z9w3m55/arrow-right-enter-signage-712850-small.jpg?dl=0)
