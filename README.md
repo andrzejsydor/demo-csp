@@ -1,3 +1,7 @@
+# CSP - configuration
+
+CSP configured in default.conf file for the `nginx` server
+
 # Docker
 
 ```

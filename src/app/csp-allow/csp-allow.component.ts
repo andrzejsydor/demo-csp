@@ -2,14 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-csp-allow',
-  templateUrl: './csp-allow.component.html',
-  styleUrls: ['./csp-allow.component.css']
+  templateUrl: './csp-allow.component.html'
 })
-export class CspAllowComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class CspAllowComponent {
+  constructor(){}
 }
