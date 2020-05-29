@@ -5,5 +5,4 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './csp-allow.component.html'
 })
 export class CspAllowComponent {
-  constructor(){}
 }
