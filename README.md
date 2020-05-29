@@ -1,3 +1,9 @@
+# Best way to run demo
+
+```
+docker run --rm -it -p 80:80 andrzejsydor/demo-csp
+```
+
 # CSP - configuration
 
 CSP configured in default.conf file for the `nginx` server
