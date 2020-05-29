@@ -39,8 +39,8 @@ jobs:
           echo IMAGE_ID=$IMAGE_NAME_HUB
           echo VERSION=$VERSION
 
-          docker tag $IMAGE_NAME_HUB $IMAGE_ID:$VERSION
-          docker push $IMAGE_ID:$VERSION
+          docker tag $IMAGE_NAME_HUB $IMAGE_NAME_HUB:$VERSION
+          docker push $IMAGE_NAME_HUB:$VERSION
 
   push-packages:
 
