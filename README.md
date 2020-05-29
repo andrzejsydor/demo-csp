@@ -6,7 +6,15 @@ docker run --rm -it -p 80:80 andrzejsydor/demo-csp
 
 # CSP - configuration
 
+## Server configuration
+
 CSP configured in default.conf file for the `nginx` server
+
+## meta tag configuration
+
+```html
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; child-src 'none'; object-src 'none'">
+```
 
 # Docker
 
