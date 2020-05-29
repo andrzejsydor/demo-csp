@@ -16,6 +16,10 @@ CSP configured in default.conf file for the `nginx` server
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; child-src 'none'; object-src 'none'">
 ```
 
+# Python script to generate CSP based on files in directory
+
+[gen-hash.py](gen-hash.py)
+
 # Docker
 
 ```
